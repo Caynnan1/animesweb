@@ -33,6 +33,7 @@
     background-color: #1a1a1a;
     color: aliceblue;
 }
+  
 
 .containeranimeson{
     display: flex;
@@ -53,6 +54,7 @@
 
 .cardsanimes{
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -93,19 +95,11 @@
 
 .containerultimosep .cardeps{
     display: flex;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
 .containerultimosep .cardeps a{
     text-decoration: none;
     color: #fff;
-}
-
-@media (max-width: 998px) {
-    .containeranimeson .cardsanimes{
-        flex-direction: column;
-    }
-    .containerultimosep .cardeps{
-        flex-direction: column;
-    }
 }
